@@ -52,7 +52,7 @@ workloads controller
 
           // no provider given
           if (wizard.create_nodes && !workloads.provider)
-            return false;
+            return wizard.system_nodes;
 
           return true;
         }
